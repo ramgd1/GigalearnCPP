@@ -24,7 +24,7 @@
 Open your terminal (Command Prompt / PowerShell) and run:
 ```powershell
 cd %USERPROFILE%\Downloads
-git clone https://github.com/ZealanL/GigaLearnCPP-Leak --recurse-submodules
+git clone https://github.com/ramgd1/GigalearnCPP.git --recurse-submodules
 ```
 
 ### 2. Install CUDA (Recommended)
