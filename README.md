@@ -76,4 +76,4 @@ If you have an NVIDIA GPU, this will significantly speed up training.
 
 > [!NOTE]
 > **Support**
-> For help, contact `c0zt0` on Discord.
+> For help, contact `ramgd` on Discord.
