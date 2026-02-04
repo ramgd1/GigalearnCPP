@@ -43,32 +43,24 @@ If you have an NVIDIA GPU, this will significantly speed up training.
     *   **Compute Platform**: CUDA 12.8 (or CPU if no GPU)
 3.  **Download** the zip file.
 4.  **Extract** the `libtorch` folder into:
-    `GigaLearnCPP-Leak\GigaLearnCPP\`
+    GigaLearnCPP\GigaLearnCPP\`
     *(Structure should be: `GigaLearnCPP\libtorch\include`, `GigaLearnCPP\libtorch\lib`, etc.)*
 
 ### 4. Configure in Visual Studio 2022
 1.  Open Visual Studio 2022.
 2.  Select **"Open a local folder"**.
-3.  Navigate to and select the `GigaLearnCPP-Leak` folder.
+3.  Navigate to and select the `GigaLearnCPP` folder.
 4.  VS will detect the `CMakeLists.txt` and start configuration.
 
 ### 5. Build Configuration
-1.  Locate the **Configuration Dropdown** in the top toolbar (default usually `x64-Debug`).
-2.  Select **Manage Configurations...**
-3.  Click the green **+** icon and select **x64-RelWithDebInfo** (Release with Debug Info).
-    *   *Tip: Use this for good performance while keeping debug symbols.*
-4.  **Save** (Ctrl+S) the `CMakeSettings.json`.
-5.  Select **x64-RelWithDebInfo** from the dropdown. CMake will regenerate the cache.
+1.  Locate the **Configuration Dropdown** in the top toolbar.
+2.  Select **x64-Release** from the dropdown. CMake will regenerate the cache.
+(this step should be already done automaticaly)
 
 ### 6. Build & Run
 1.  Go to **Build** -> **Build All** (or press `Ctrl+Shift+B`).
 2.  Once built, your executable will be in:
-    `out\build\x64-RelWithDebInfo`
-3.  **Important**: Copy the following into the output folder (where `GigaLearnBot.exe` is):
-    *   `collision_meshes` folder
-    *   Visualizer templates (if applicable)
-    *   Your `run.bat` or config files
-
+    `out\build\x64-Release`
 ---
 
 ## Troubleshooting
