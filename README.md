@@ -29,7 +29,7 @@ git clone https://github.com/ramgd1/GigalearnCPP.git --recurse-submodules
 
 ### 2. Install CUDA (Recommended)
 If you have an NVIDIA GPU, this will significantly speed up training.
-1.  Download **CUDA 12.8** (or compatible 12.x) from the [NVIDIA Archive](https://developer.nvidia.com/cuda-12-8-0-download-archive).
+1.  Download **CUDA 12.8** (or compatible any compatible CUDA Verison(DO THIS IF YOU KNOW WHATA RE YOU DOING)) from the [NVIDIA Archive](https://developer.nvidia.com/cuda-12-8-0-download-archive).
 2.  Select **Windows** -> **x86_64** -> **exe (local)**.
 3.  Install with default settings.
 
